@@ -133,9 +133,151 @@ justify-content: center;
 }
 .xoz{
   color: grey;
-  margin-top: 50px;
+  margin-top: 70px;
   font-size: 20px;
-  
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  text-align: center;
 }
 .asq{
+  margin-top: 70px;
+}
+.bsk{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.block1{
+  position: relative;
+  width: 250px;
+  height: 320px;
+  background: white;
+  border: 1px solid black;
+  margin-top: 100px;
+  color: azure;
+}
+.block3{
+  display: none;
+  width: 250px;
+  height: 320px;
+  background: gray;
+  position: absolute;
+  top: 0px;
+  background: linear-gradient(45deg, #f08b8a, #edd586);
+  opacity: 0.9;
+}
+.block1:hover .block3{
+  display: block;
+}
+.knopka1{
+  height: 30px;
+  width: 50px;
+  background-color: rgba(100, 100, 100, 0.3);
+
+}
+.wrap{
+  margin-top: 45%;
+  text-align: center;
+}
+.l{
+  border: 1px solid;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+}
+.l span{
+  opacity: 0px;
+  font-size: 36px;
+}
+.l:hover span{
+  opacity: 0;
+}
+.l:hover{
+  background: #4ec6ab;
+}
+.pf{
+  width: 231px;
+  height: 15px;
+  text-decoration: white;
+  background-color: black;
+}
+.block1:hover{
+  right: 15px;
+  top: -15px;
+  box-shadow: 5px 5px 0px 3px #4ec6ab;
+}
+.l2{
+  color: #edd586;
+  background-color: #edd586;
+}
+.l3{
+  color: #edd586;
+  background-color: #edd586;
+}
+.l4{
+  color: #edd586;
+  background-color: #edd586;
+}
+.l1{
+  color: #edd586;
+  background-color: #edd586;
+}
+.podbl{
+  width: 250px;
+  height: 70px;
+}
+.zgl{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', ;
+  color: gray;
+}
+.pzgl{
+  display: flex;
+  justify-content: center;
+  color: darkgray;
+  margin-top: -25px;
+  font-family: 'Montserrat', ;
+}
+.footer{
+  width: 1200px;
+  height: 70px;
+  margin-top: 30px;
+}
+.txt{
+  justify-content: start;
+  display: flex;
+}
+.txt3{
+  justify-content: end;
+  display: flex;
+  margin-left: 600px;
+}
+.f1{
+  display: flex;
+  justify-content: center;
+}
+.bpm{
+  width: 200px;
+  height: 23px;
+  color: grey;
+  border: 1px solid gray;
+}
+.btn{
+  background-color: #4ec6ab;
+}
+.btn{
+  color: white;
+}
+.txt3::after{
+  content: "";
+  top: 1550px;
+  margin-left: -1050px;
+  position: absolute;
+  height: 1px;
+  background-color: gray;
+  width: 1530px;
 }
